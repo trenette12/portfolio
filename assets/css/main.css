@@ -814,6 +814,19 @@
 		margin-bottom: 2em;
 	}
 
+	#font-grad {
+		color:#fff;
+		font-size: 24px;
+	}
+
+	.navbar-default {
+		background: transparent;
+		border-color: transparent;
+	}
+
+	#me-two {
+		
+	}
 /* Table */
 
 	table {

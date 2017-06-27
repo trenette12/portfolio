@@ -9,6 +9,7 @@
 		<title>Tiffany Hyatt</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -24,22 +25,22 @@
 					<nav id="nav">
 						<nav class="navbar navbar-default navbar-fixed-top">
 							<div class="container">
-								Home | About Me | Connect With Me | Gallery
+								<span id="font-grad">Home | About Me | Connect With Me | Gallery</span>
 							</div>
-						</nav>
+					</nav>
+					</nav>
 						<!--<a href="#me" class="icon fa-home active"><span>Home</span></a>
 						<a href="#work" class="icon fa-folder"><span>Work</span></a>
 						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
 						<a href="#twitter" class="icon fa-twitter"><span>Twitter</span></a>-->
-					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Me -->
-							<article id="me" class="panel">
+							<article id="me" class="panel headshot one">
 								<header>
-									<h1>Tiffany Hyatt</h1>
+									<h1 class="animate bounce">Tiffany Hyatt</h1>
 									<p>Full Stack Web Developer | Music Afficionado</p>
 									<p id="p2">Check Out My <a href="https://github.com/trenette12">Github</a></p>
 									<p id="p3"><i class="fa fa-play-circle-o" aria-hidden="true">&nbsp;Now Playing</i></p>
@@ -48,6 +49,14 @@
 									<!--<span class="arrow icon fa-chevron-right"><span>See my work</span></span>-->
 									<img src="images/Tiffany-Head-Shot.png" alt="Picture of Tiffany Hyatt" />
 								</a>
+							</article>
+							<article class="two">
+								<header>
+									<h1 class="animate bounceInLeft">Tiffany Hyatt</h1>
+									<p>Full Stack Web Developer | Music Afficionado</p>
+									<p id="p2">Check Out My <a href="https://github.com/trenette12">Github</a></p>
+									<p id="p3"><i class="fa fa-play-circle-o" aria-hidden="true">&nbsp;Now Playing</i></p>
+								</header>
 							</article>
 
 						<!-- Work -->
@@ -150,6 +159,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$('.headshot').on('click', function(){
+					$('.one').hide();
+					$('.two').show().addClass('animate bounceInLeft');
+				})
+			</script>
 	</body>
 </html>
