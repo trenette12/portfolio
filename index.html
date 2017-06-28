@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main2.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -23,9 +24,9 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<nav class="navbar navbar-default navbar-fixed-top">
+						<nav class="navbar navbar-default navbar-static-top">
 							<div class="container">
-								<span id="font-grad">Home | About Me | Connect With Me | Gallery</span>
+								<span id="font-grad"><a href="home.html">Home</a> | <a href="about.html">About Me</a> | <a href="connect.html">Connect With Me</a> | <a href="portfolio.html">Gallery</a></span>
 							</div>
 					</nav>
 					</nav>
@@ -45,14 +46,14 @@
 									<p id="p2">Check Out My <a href="https://github.com/trenette12">Github</a></p>
 									<p id="p3"><i class="fa fa-play-circle-o" aria-hidden="true">&nbsp;Now Playing</i></p>
 								</header>
-								<a href="#work" class="jumplink pic">
+								<a href="#work" class="pic">
 									<!--<span class="arrow icon fa-chevron-right"><span>See my work</span></span>-->
 									<img src="images/Tiffany-Head-Shot.png" alt="Picture of Tiffany Hyatt" />
 								</a>
 							</article>
 							<article class="two">
 								<header>
-									<h1 class="animate bounceInLeft">Tiffany Hyatt</h1>
+									<h1>Tiffany Hyatt</h1>
 									<p>Full Stack Web Developer | Music Afficionado</p>
 									<p id="p2">Check Out My <a href="https://github.com/trenette12">Github</a></p>
 									<p id="p3"><i class="fa fa-play-circle-o" aria-hidden="true">&nbsp;Now Playing</i></p>
@@ -60,7 +61,7 @@
 							</article>
 
 						<!-- Work -->
-							<article id="work" class="panel">
+							<!--<article id="work" class="panel">
 								<header>
 									<h2>Work</h2>
 								</header>
@@ -109,7 +110,7 @@
 										</div>
 									</div>
 								</section>
-							</article>
+							</article>-->
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
@@ -162,7 +163,11 @@
 			<script>
 				$('.headshot').on('click', function(){
 					$('.one').hide();
-					$('.two').show().addClass('animate bounceInLeft');
+					$('.two').show().addClass('animated rollIn');
+				})
+				$('.two').on("click", function(){
+					$('.two').hide();
+					$('.one').show().addClass('animated rollIn')
 				})
 			</script>
 	</body>
