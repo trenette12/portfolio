@@ -30,6 +30,55 @@
     margin-bottom: 15px;
 }
 
+.rightalign {
+    text-align: right;
+}
+
+#iconleftalign2{
+    position: relative;
+    left: 130px;
+}
+
+#iconrightalign2 {
+    position: relative;
+    right: 130px;
+}
+
+#iconleftalign3{
+    position: relative;
+    left: 70px;
+}
+
+#iconrightalign3 {
+    position: relative;
+    right: 70px;
+}
+
+#iconleftalign4{
+    position: relative;
+    left: 10px;
+}
+
+#iconrightalign4 {
+    position: relative;
+    right: 10px;
+}
+
+#iconleftalign {
+    position: relative;
+    left: 180px;
+}
+
+#iconrightalign {
+    position: relative;
+    right: 180px;
+
+}
+
+.devicon-git-plain {
+  max-width: 6em;
+}
+
 .p2:before {
     content: "";
     display: inline-block;
