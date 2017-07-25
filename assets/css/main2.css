@@ -10,6 +10,7 @@
 #maintwo {
 	width: 45em;
 	margin-top: 20px;
+    height: 100%;
 	position: relative;
 	background: #ffffff;
 	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.25);
@@ -107,6 +108,22 @@ li {
     display: inline-block;
 
 }
+
+.smallimg {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+} 
+
 /*#nav a {
     width: 100px;
     font-size:20px;

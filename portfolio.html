@@ -50,7 +50,7 @@
     <!--Body Container-->
     <div class="container">
         <div class="row">
-            <div class="col-md-12" id="maintwo">
+            <div class="col-md-12 hidden" id="maintwo">
                 <p>Below is a diagram of all languages/frameworks/programs I have knowledge and experience in.</p>
                 <!--First Row of Icons-->
                 <div class="row">
@@ -195,6 +195,62 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="card1" class="card" style="width: 20rem;">
+                    <img class="card-img-top smallimg" src="./images/rtfm.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Simplify My Code</h4>
+                        <p class="card-text">An app that saves you from having multiple tabs open for help with writing code.</p>
+                        <a href="http://helpmertfm.herokuapp.com/" class="btn btn-primary">Go to site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="card2" class="card" style="width: 20rem;">
+                    <img class="card-img-top smallimg" src="./images/triviagame.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Action Game Trivia</h4>
+                        <p class="card-text">A timed fun trivia game with a set of questions related to classic action movies.</p>
+                        <a href="https://trenette12.github.io/TriviaGame/" class="btn btn-primary">Go to site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="card3" class="card" style="width: 20rem;">
+                    <img class="card-img-top smallimg" src="./images/pyschicgame.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Psychic Game</h4>
+                        <p class="card-text">A game where you have to guess the letter I'm thinking. Be careful, you only have ten guesses.</p>
+                        <a href="https://trenette12.github.io/Psychic-Game/" class="btn btn-primary">Go to site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 hidden">
+                <div id="card4" class="card" style="width: 20rem;">
+                    <img class="card-img-top smallimg" src="./images/triviagame.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Action Game Trivia</h4>
+                        <p class="card-text">A timed fun trivia game with questions related to classic action movies.</p>
+                        <a href="https://trenette12.github.io/TriviaGame/" class="btn btn-primary">Go to site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/skel-viewport.min.js"></script>
+	<script src="assets/js/util.js"></script>
+    <script>
+        $(".bootstrap").on("click", function(){
+            // $("#maintwo").addClass("hidden");
+            $("#card1").show().removeClass("hidden");
+        })
+    </script>
+
 </body>
 
 </html>
