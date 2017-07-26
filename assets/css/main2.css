@@ -124,6 +124,9 @@ li {
   visibility: hidden;
 } 
 
+.padding {
+    padding: 10px;
+}
 /*#nav a {
     width: 100px;
     font-size:20px;
