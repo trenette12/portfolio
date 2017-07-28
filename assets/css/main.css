@@ -1092,7 +1092,6 @@
 			position: absolute;
 			top: 0;
 			left: 0;
-			background: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -1354,8 +1353,6 @@
 					#me .pic img {
 						position: relative;
 						display: block;
-						height: 60%;
-						width: 80%;
 						top: 12%;
 					}
 
@@ -1565,7 +1562,7 @@
 
 				#me .pic img {
 					display: block;
-					width: 100%;
+					width: 50%;
 				}
 
 				#me .pic .arrow {
