@@ -1,4 +1,13 @@
 
+  $(document).ready(function() {
+    $('#trigger').click(function(){
+      $("#dialog").dialog();
+    })
+  });   
+
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
 // $.ajax({
 //     method: 'GET',
 //     url: "https://accounts.spotify.com/authorize",
