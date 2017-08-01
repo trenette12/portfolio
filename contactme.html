@@ -85,26 +85,10 @@
                     <header>
                         <h2>I'd Love to Hear From You</h2>
                     </header>
-                    <form action="mailto:mail@tiffanyhyatt.com" method="post" enctype="text/plain">
-                        <div>
-                            <div class="row">
-                                <div class="6u 12u$(mobile)">
-                                    <input type="text" name="name" placeholder="Name" />
-                                </div>
-                                <div class="6u$ 12u$(mobile)">
-                                    <input type="text" name="email" placeholder="Email" />
-                                </div>
-                                <div class="12u$">
-                                    <input type="text" name="subject" placeholder="Subject" />
-                                </div>
-                                <div class="12u$">
-                                    <textarea name="message" placeholder="Message" rows="8"></textarea>
-                                </div>
-                                <div class="12u$">
-                                    <input type="submit" value="Send Message" />
-                                </div>
-                            </div>
-                        </div>
+                    <form method="POST" action="http://formspree.io/barber.t12@gmail.com">
+                        <input type="email" name="email" placeholder="Your email">
+                        <textarea name="message" placeholder="Reach out to me here"></textarea>
+                        <button type="submit">Send</button>
                     </form>
                 </article>
             </div>
