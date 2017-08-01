@@ -15,6 +15,16 @@
 	background: #ffffff;
 	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.25);
 }
+
+#mainthree {
+    background-color: #1B100E;
+    width: 100%;
+    height: 100%;
+}
+
+.whitefont {
+    color: #fff;
+}
 .roundimg {
     border-radius: 100px;
     width: 160px;
@@ -113,6 +123,11 @@
     max-width: 35px;
 }
 
+.devicon-git-plaintwo {
+    max-width: 95px;
+    margin-right:40px;
+}
+
 li {
     display: inline-block;
 
@@ -147,17 +162,21 @@ li {
 }*/
 
 .navbar-header {
-    background-color: transparent;
+    background-color: #1B100E;
+    color: #1B100E;
     width:100%;
 }
 
+.navbar-header.right {
+    width: inherit;
+}
 .navbar-inverse {
     background-color: transparent;
     border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #fff;
+    color: #1B100E;
 }
 .navbar-inverse .navbar-toggle {
     border-color: 1px solid #fff;
@@ -172,6 +191,11 @@ li {
     border-color: transparent;
 }
 
+.navbar-default {
+    background-color: #1B100E;
+    height: 100%;
+}
+
 .jumbotron {
     background-image: url("../../images/197.jpg");
     background-color: #fff;
@@ -181,7 +205,7 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* background-position-y: -230px; */
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 
 .right {
@@ -198,36 +222,41 @@ li {
     color: #fff;
 }
 
+.thumbnails {
+    width: 420px;
+    height: 210px;
+}
 /* .marginbottom {
     padding-bottom: 500px;
 } */
 
 /*Media Queries*/
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	.container {
     	width: 800px;
 	}
 }
 
-@media (max-width: 1074px){
+@media screen and (max-width: 965px){
     .navbar-default{
         display: none;
     }
 
 }
-@media (max-width: 736px) {
+@media screen and (max-width: 736px) {
     #me .pic {
         width: 50%;
     }
 }
 
-@media (min-width: 718px){
+@media screen and (min-width: 966px) and (max-width: 2000px){
     .navbar-inverse {
-        display: none;
+        display: none;  
     }
-    .navbar-header {
-        display: none;
+
+    .navbar-header.right {
+        width: inherit;
     }
 
 }
