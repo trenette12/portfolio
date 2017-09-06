@@ -1,3 +1,6 @@
+body {
+    padding-top: 50px;
+}
 #font-grad {
 	color:#fff;
 	font-size: 24px;
@@ -226,6 +229,19 @@ li {
     width: 420px;
     height: 210px;
 }
+
+/* body {
+    background-image: url('../../images/dream-carousel-once.gif');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-color: #000;
+} */
+
+
 /* .marginbottom {
     padding-bottom: 500px;
 } */
