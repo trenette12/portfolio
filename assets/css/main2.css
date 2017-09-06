@@ -1,5 +1,5 @@
 body {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 #font-grad {
 	color:#fff;
@@ -196,7 +196,6 @@ li {
 
 .navbar-default {
     background-color: #1B100E;
-    height: 100%;
 }
 
 .jumbotron {
@@ -207,6 +206,9 @@ li {
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
     /* background-position-y: -230px; */
     /* padding-top: 5px; */
 }
@@ -230,6 +232,7 @@ li {
     height: 210px;
 }
 
+<<<<<<< HEAD
 /* body {
     background-image: url('../../images/dream-carousel-once.gif');
     background-size:100%;
@@ -242,6 +245,8 @@ li {
 } */
 
 
+=======
+>>>>>>> 9b671bf948bc2e2ce0f83e6bb6e818a9a40b12ed
 /* .marginbottom {
     padding-bottom: 500px;
 } */
@@ -264,6 +269,13 @@ li {
     #me .pic {
         width: 50%;
     }
+    #nav {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .row > * {
+    float: none;
+}
 }
 
 @media screen and (min-width: 966px) and (max-width: 2000px){
