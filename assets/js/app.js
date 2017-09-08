@@ -1,3 +1,10 @@
+// Background Change based on User Input
+const changeBackground = document.querySelectorAll('.controls input');
+function colorUpdate(){
+  document.documentElement.style.setProperty(`--${this.name}`, this.value);
+}
+changeBackground.forEach(input => input.addEventListener('change', colorUpdate));
+
 // Random Quote API
 $.ajax({
     url: 'https://timshim-quotes-v1.p.mashape.com/quotes', 
@@ -16,6 +23,7 @@ $.ajax({
     }
 });
 
+// Javascript Smooth Scrolling
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -40,4 +48,6 @@ $(document).ready(function(){
     } // End if
   })
 });
+
+
 
