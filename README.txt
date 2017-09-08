@@ -1,8 +1,8 @@
 # Tiffany Hyatt Portfolio
 
-###### Welcome to my website/portfolio. I'm constantly learning and applying what I've learned to my website. Please leave me a note that you stopped by!
+Welcome to my website/portfolio. I'm constantly learning and applying what I've learned to my website. Please leave me a note that you stopped by!
 
-### Credits:
+Credits:
 
 	Demo Images:
 		Unsplash (unsplash.com)
@@ -16,6 +16,3 @@
 		background-size polyfill (github.com/louisremi)
 		Repond.js (j.mp/respondjs)
 		Skel (skel.io)
-
-
-# The largest heading
